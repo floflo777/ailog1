@@ -1,0 +1,12 @@
+1/ ne pas oublier de démarrer l'environnement virtuel dans le backend:
+venv\Scripts\activate
+
+2/ pour lancer le backend dans command prompt 1:
+naviguer dans /backend
+uvicorn main:app --reload
+pour le port 8001
+uvicorn main:app --reload --port 8001
+
+3/ pour lancer le frontend dans command prompt 2:
+naviguer dans /frontend
+npm run dev
